@@ -49,7 +49,7 @@ const Nav = () => {
 
       {isMenuOpen && (
         <div className="absolute top-0 left-0 w-full h-screen bg-black bg-opacity-90 flex flex-col justify-center items-center md:hidden">
-          <a href="#home" className="text-3xl text-white my-4" onClick={toggleMenu}>Home</a>
+          <a href="#home" className="text-3xl text-gray-100 my-4" onClick={toggleMenu}>Home</a>
           <a href="#about" className="text-3xl text-white my-4" onClick={toggleMenu}>About Me</a>
           <a href="#skills" className="text-3xl text-white my-4" onClick={toggleMenu}>Skills</a>
           <a href="contact" className="text-3xl text-white my-4" onClick={toggleMenu}>Contact Me</a>
